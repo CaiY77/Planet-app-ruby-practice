@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  distnace_from_sun: MyString
+  diameter: MyString
+  orbit_period: MyString
+
+two:
+  name: MyString
+  distnace_from_sun: MyString
+  diameter: MyString
+  orbit_period: MyString

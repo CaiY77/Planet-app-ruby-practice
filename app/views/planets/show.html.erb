@@ -1,0 +1,12 @@
+<h1><%= @planet.name %></h1>
+
+<p>Diameter: <%= @planet.diameter %></p>
+<p>Orbit Period: <%= @planet.orbit_period %></p>
+<p>Distance From Sun: <%= @planet.distance_from_sun %></p>
+
+<%= link_to "My Planets", planets_path %>
+
+<h1>MY MOooOOOOOns</h1>
+<% @planet.moons.each do |moon| %>
+<%= link_to moon.name, moon_path(moon) %>
+<% end %>

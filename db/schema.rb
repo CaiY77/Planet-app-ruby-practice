@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2019_05_24_182458) do
 
   create_table "moons", force: :cascade do |t|
     t.string "name"
-    t.string "distance_from_sun"
+    t.string "distance_from_planet"
     t.string "radius"
     t.string "orbit_period"
     t.bigint "planet_id"

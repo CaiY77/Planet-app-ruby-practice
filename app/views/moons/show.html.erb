@@ -1,0 +1,10 @@
+<h1><%= @moon.name %></h1>
+
+<p>Radius: <%= @moon.radius %></p>
+<p>Orbit Period: <%= @moon.orbit_period %></p>
+<p>Distance From Planet: <%= @moon.distance_from_planet %></p>
+<p>I am from the planet <%= @moon.planet.name %></p>
+<%= link_to "Go Back To #{@moon.planet.name}", planet_path(@moon.planet) %>
+</br>
+
+<%= link_to "My Moons", moons_path %>
